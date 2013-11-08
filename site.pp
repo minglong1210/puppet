@@ -1,7 +1,7 @@
 node default {
 
    tomcat::deployment { "cas-test-app1":
-      path => '/srv/puppet-tomcat-demo/java_src/cas-test-app1.war'
+      path => '/srv/puppet/java_src/cas-test-app1.war'
    }
 
    #tomcat::deployment { "SimpleServlet":
